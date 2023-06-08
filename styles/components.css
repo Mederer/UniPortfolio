@@ -1,0 +1,243 @@
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.home__header {
+    grid-column: 1 / -1;
+}
+
+.home__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.home__logo {
+    width: 20rem;
+    border-radius: .3rem;
+}
+
+.home__personal,
+.home__professional {
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.composition {
+    position: relative;
+}
+
+.composition__photo {
+    width: 20rem;
+    position: absolute;
+    transition: all .2s;
+    border-radius: .3rem;
+    box-shadow: 0 3rem 2rem rgba(black, 0.5);
+}
+
+.composition__photo:hover {
+    transform: scale(1.3);
+    z-index: 20;
+}
+
+.composition__photo--p1  {
+    top: 2rem;
+    right: 10rem;
+}
+
+.composition__photo--p2 {
+    top: 5rem;
+    right: 25rem;
+}
+
+.composition__photo--p3  {
+    top: 20rem;
+    right: 15rem;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.resume__header {
+    grid-column: 1 / -1;
+}
+
+.resume__subtitle {
+    grid-column: 1 / -1;
+}
+
+.resume__skills li:not(:last-child) {
+    margin-bottom: .7rem;
+}
+
+.resume__grades-table td,
+.resume__grades-table th {
+    padding: 1rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.resume__education li:not(:last-child) {
+    margin-bottom: .7rem;
+}
+.web-dev {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.web-dev__header {
+    grid-column: 1 / -1;
+}
+
+.web-dev__list {
+    list-style-type: none;
+}
+
+.web-dev__cloud-advocate-img {
+    max-width: 40rem;
+}
+
+.linux__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linux__icon {
+    width: 5rem;
+}
+
+.linux__aix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -4rem;
+}
+
+.gardening {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.gardening__photos {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gardening__photo-container {
+    width: 20rem;
+}
+
+.gardening__photo-container img {
+    width: 20rem;
+    border-radius: .3rem;    
+    transition: transform .2s;
+}
+
+.gardening__photo-container:hover img {
+    transform: scale(1.1);
+}
+
+.gardening__photo-container .gardening__blurb {
+    margin-top: 3rem;
+    opacity: 0;
+    transition: all .2s;
+}
+
+.gardening__photo-container:hover .gardening__blurb {
+    opacity: 1;
+}
+
+.crochet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.crochet__photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crochet__photo-container img {
+    width: 40rem;
+    border-radius: .3rem;
+}
+
+.form-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-page__header {
+    grid-column: 1 / -1;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.form-page__highlight {
+    margin: 0 5rem;
+    display: inline-block;
+    transform: skewX(-20deg) skewY(-4deg);
+    font-size: 2.8rem;
+    background-image: linear-gradient(to right, red, blue);
+    background-clip: text;
+    color: transparent;
+}
+
+.form-page__text-group {
+    display: grid;
+    grid-template-columns: 10rem 40rem;
+    text-align: right;
+}
+
+.form-page__text-group label {
+    margin-right: 1rem;
+}
+
+.form-page__text-group:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.form-page__radio-group {
+    display: grid;
+    grid-template-columns: 8rem 5rem;
+    text-align: right;
+    width: 50rem;
+}
+
+.form-page__checks-group {
+    display: grid;
+    grid-template-columns: 15rem 5rem;
+    text-align: right;
+    width: 50rem;
+}
+
+.form-page__form {
+    margin-top: 5rem;
+}
+
+.form-page__info {
+    margin-top: 1rem;
+}
+
+.form-page__error {
+    border: 1px solid red;
+}
+
+.form-page__submit input {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: .7rem 5rem;
+    background-color: #00509d;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+}

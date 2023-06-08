@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/typography.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav__title-box">
+            <img class="nav__title-box--logo" src="img/icons8-console-80.png" alt="Trendy console logo, from icon8.">
+            <h1 class="nav__title-box--title">Mitchell <span class="text-highlight">Dederer</span></h1>
+        </div>
+        <div class="nav__links">
+            <a class="nav__link" href="#">Home</a>
+            <a class="nav__link" href="/resume.html">Resume</a>
+            <a class="nav__link" href="/webdev.html">Web Dev</a>
+            <a class="nav__link" href="/linux.html">Linux</a>
+            <a class="nav__link" href="/gardening.html">Gardening</a>
+            <a class="nav__link" href="/crochet.html">Crochet</a>
+        </div>
+    </nav>
+    <main class="content">
+        <div class="form-page text-size-md">
+            <h2 class="form-page__header heading--primary">Welcome to <span class="form-page__highlight">Super Duper Ultra Mega Gaming Corporation/Ltd.</span> - Newsletter Signup</h2>
+            <form class="form-page__form" action="http://csusap.csu.edu.au/cgi-bin/echo_form" method="post" onsubmit="validateForm(event)">
+                <div class="form-page__text">
+                    <h3>Personal Details</h3>
+                    <div class="form-page__text-group">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" name="firstname" id="firstname">
+                    </div>
+                    <div class="form-page__text-group">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname">
+                    </div>
+                    <div class="form-page__text-group">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                </div>
+                <div class="form-page__radio">
+                    <h3>Age Group</h3>
+                    <div class="form-page__radio-group">
+                        <label for="15-25">15-25</label>
+                        <input type="radio" name="age-group" id="15-25">
+
+                    </div>
+                    <div class="form-page__radio-group">
+                        <label for="15-25">26-35</label>
+                        <input type="radio" name="age-group" id="26-35">
+
+                    </div>
+                    <div class="form-page__radio-group">
+                        <label for="15-25">36-45</label>
+                        <input type="radio" name="age-group" id="36-45">
+                        
+                    </div>
+                    <div class="form-page__radio-group">
+                        <label for="15-25">46-55</label>
+                        <input type="radio" name="age-group" id="46-55">
+                        
+                    </div>
+                    <div class="form-page__radio-group">
+                        <label for="15-25">55+</label>
+                        <input type="radio" name="age-group" id="55+">
+                    </div>
+
+                    <div class="form-page__checks">
+                        <h3>What Genres Do You Like?</h3>
+                        <div class="form-page__checks-group">
+                            <label for="action">Action</label>
+                            <input type="checkbox" name="preferences" id="action">
+                        </div>
+                        <div class="form-page__checks-group">
+                            <label for="adventure">Adventure</label>
+                            <input type="checkbox" name="preferences" id="adventure">
+                        </div>
+                        <div class="form-page__checks-group">
+                            <label for="mmorpg">MMORPG</label>
+                            <input type="checkbox" name="preferences" id="mmorpg">
+                        </div>
+                        <div class="form-page__checks-group">
+                            <label for="fps">First Person Shooter</label>
+                            <input type="checkbox" name="preferences" id="fps">
+                        </div>
+                        <div class="form-page__checks-group">
+                            <label for="strategy">Strategy</label>
+                            <input type="checkbox" name="preferences" id="strategy">
+                        </div>
+                    </div>
+                    <div class="form-page__info text-size-sm">
+                        Fields marked with * are required.
+                    </div>
+                    <div class="form-page__submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer text-size-md">
+        <div class="footer__icons">
+            <a class="footer__link" href="#">
+                <img class="footer__icon" src="img/icons8-phone-50.png" alt="Phone icon">
+            </a>
+            <a class="footer__link" href="#">
+                <img class="footer__icon" src="img/icons8-mail-50.png" alt="Phone icon">
+            </a>
+            <a class="footer__link" href="#">
+                <img class="footer__icon" src="img/icons8-linkedin-50.png" alt="Phone icon">
+            </a>
+            <a class="footer__link" href="#">
+                <img class="footer__icon" src="img/icons8-github-50.png" alt="Phone icon">
+            </a>
+        </div>
+        <div class="footer__disclaimer">
+            <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+            <p>All materials used with permission. &copy; Mitchell Dederer</p>
+        </div>
+    </footer>
+    <script src="js/form.js"></script>
+</body>
+</html>

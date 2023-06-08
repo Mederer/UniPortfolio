@@ -1,0 +1,33 @@
+/* This file contains CSS classes that control the display of text */
+
+.text-highlight {
+    color: #FFD500;
+}
+
+.heading--primary {
+    font-size: 2.4rem;
+}
+
+.heading--sub {
+    font-size: 1.8rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.text-size-sm {
+    font-size: 1.2rem;
+}
+
+.text-size-md {
+    font-size: 1.6rem;
+}
+
+.text-size-lg {
+    font-size: 2.4rem;
+}
+
+.text-grey {
+    color: grey;
+}
