@@ -1,103 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/layout.css">
-    <link rel="stylesheet" href="styles/typography.css">
-    <link rel="stylesheet" href="styles/components.css">
-    <link rel="stylesheet" href="styles/animations.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/typography.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/animations.css" />
+    <title>Mitchell Dederer | Home</title>
+  </head>
+  <body>
     <nav class="nav">
-        <div class="nav__title-box">
-            <img class="nav__title-box--logo" src="img/icons8-console-80.png" alt="Trendy console logo, from icon8.">
-            <h1 class="nav__title-box--title">Mitchell <span class="text-highlight">Dederer</span></h1>
-        </div>
-        <div class="nav__links">
-            <a class="nav__link nav__link--active" href="#">Home</a>
-            <a class="nav__link" href="/resume.html">Resume</a>
-            <a class="nav__link" href="/webdev.html">Web Dev</a>
-            <a class="nav__link" href="/linux.html">Linux</a>
-            <a class="nav__link" href="/gardening.html">Gardening</a>
-            <a class="nav__link" href="/crochet.html">Crochet</a>
-        </div>
+      <div class="nav__title-box">
+        <img
+          class="nav__title-box--logo"
+          src="img/icons8-console-80.png"
+          alt="Trendy console logo, from icon8."
+        />
+        <h1 class="nav__title-box--title">
+          Mitchell <span class="text-highlight">Dederer</span>
+        </h1>
+      </div>
+      <div class="nav__links">
+        <a class="nav__link nav__link--active" href="#">Home</a>
+        <a class="nav__link" href="/resume.html">Resume</a>
+        <a class="nav__link" href="/webdev.html">Web Dev</a>
+        <a class="nav__link" href="/linux.html">Linux</a>
+        <a class="nav__link" href="/gardening.html">Gardening</a>
+        <a class="nav__link" href="/crochet.html">Crochet</a>
+      </div>
     </nav>
     <main class="content">
-        <div class="home text-size-md slide-right">
-            <h2 class="home__header heading--primary center-text title-animated">Hello There</h2>
+      <div class="home text-size-md slide-right">
+        <h2 class="home__header heading--primary center-text title-animated">
+          Hello There
+        </h2>
 
-            <div class="home__info">
-                <p>
-                    I'm currently studying a Bachelor of Information Technology (Software Development Specialisation) with Charles Sturt University at the beautiful Port Macquarie campus.
-                </p>
-                <img class="home__logo" src="img/csuLogo.jpg" alt="">
-                <p>
-                    I'm also an intern application developer with IBM, doing web development and running onboarding sessions. 
-                </p>
-                <img class="home__logo" src="img/ibmLogo.png" alt="">
-            </div>
-
-            <div class="composition">
-                <img class="composition__photo composition__photo--p1" src="img/IMG_4078.JPEG" alt="Picture of me">
-                <img class="composition__photo composition__photo--p2" src="img/IMG_3787.jpeg" alt="Picture of me and my fiance">
-                <img class="composition__photo composition__photo--p3" src="img/IMG_4428.JPEG" alt="Picture of my cat minky">
-            </div>
-
-            <div class="home__personal">
-                <h3 class="center-text">Personal</h3>
-                <p>
-                    I currently live in Kempsey, NSW with my lovely fiance and 2 cats.
-
-                    Perhaps unsurprisingly, I'm a little bit of a geek. Some of my favourite hobbies include:
-                        <ul>
-                            <li>Video games</li>
-                            <li>Sci-fi and fantasy novels</li>
-                            <li>Programming</li>
-                            <li>Netflix marathons</li>
-                            <li>Magic the Gathering</li>
-                            <li>Gardening</li>
-                            <li>Crocheting</li>
-                        </ul>
-                    I also have a love for all things coffee, my current setup involves a Gaggia Classic Pro combined with a Baratza Encore grinder (not an ideal grinder for espresso I know, planning an upgrade). 
-                </p>
-            </div>
-            <div class="home__professional">
-                <h3 class="center-text">Professional</h3>
-                <p>
-                    I currently work as an application developer at IBM as an intern, a job I absolutely love doing. At the moment I'm working to support and upgrade a web application primarily using a JavaScript / TypeScript stack, using a NodeJS and Express server along with a NextJS frontend, with a little sprinkle of Python here and there for data processing purposes. 
-                </p>
-                <p>
-                    I've picked up a fair few skills in this role, and am always in the process of learning something new. Right now my interest is in learning the Apple development ecosystem, so I'm currently in the process of improving my Swift programming knowledge and getting more familiar with Apples 2 major UI frameworks, UIKit and SwiftUI (just incase you're wondering, I'm team SwiftUI). 
-                </p>
-                <p>
-                    Although I'm working in a tech role, most of my previous professional experience is in the hospitality industry, working both as a barista and (when needed) a cook. 
-                </p>
-            </div>
+        <div class="home__info">
+          <p>
+            I'm currently studying a Bachelor of Information Technology
+            (Software Development Specialisation) with Charles Sturt University
+            at the beautiful Port Macquarie campus.
+          </p>
+          <img class="home__logo" src="img/csuLogo.jpg" alt="" />
+          <p>
+            I'm also an intern application developer with IBM, doing web
+            development and running onboarding sessions.
+          </p>
+          <img class="home__logo" src="img/ibmLogo.png" alt="" />
         </div>
+
+        <div class="composition">
+          <img
+            class="composition__photo composition__photo--p1"
+            src="img/IMG_4078.JPEG"
+            alt="Picture of me"
+          />
+          <img
+            class="composition__photo composition__photo--p2"
+            src="img/IMG_3787.jpeg"
+            alt="Picture of me and my fiance"
+          />
+          <img
+            class="composition__photo composition__photo--p3"
+            src="img/IMG_4428.JPEG"
+            alt="Picture of my cat minky"
+          />
+        </div>
+
+        <div class="home__personal">
+          <h3 class="center-text">Personal</h3>
+          <p>
+            I currently live in Kempsey, NSW with my lovely fiance and 2 cats.
+            Perhaps unsurprisingly, I'm a little bit of a geek. Some of my
+            favourite hobbies include:
+          </p>
+          <ul>
+            <li>Video games</li>
+            <li>Sci-fi and fantasy novels</li>
+            <li>Programming</li>
+            <li>Netflix marathons</li>
+            <li>Magic the Gathering</li>
+            <li>Gardening</li>
+            <li>Crocheting</li>
+          </ul>
+          <p>
+            I also have a love for all things coffee, my current setup involves
+            a Gaggia Classic Pro combined with a Baratza Encore grinder (not an
+            ideal grinder for espresso I know, planning an upgrade).
+          </p>
+        </div>
+        <div class="home__professional">
+          <h3 class="center-text">Professional</h3>
+          <p>
+            I currently work as an application developer at IBM as an intern, a
+            job I absolutely love doing. At the moment I'm working to support
+            and upgrade a web application primarily using a JavaScript /
+            TypeScript stack, using a NodeJS and Express server along with a
+            NextJS frontend, with a little sprinkle of Python here and there for
+            data processing purposes.
+          </p>
+          <p>
+            I've picked up a fair few skills in this role, and am always in the
+            process of learning something new. Right now my interest is in
+            learning the Apple development ecosystem, so I'm currently in the
+            process of improving my Swift programming knowledge and getting more
+            familiar with Apples 2 major UI frameworks, UIKit and SwiftUI (just
+            incase you're wondering, I'm team SwiftUI).
+          </p>
+          <p>
+            Although I'm working in a tech role, most of my previous
+            professional experience is in the hospitality industry, working both
+            as a barista and (when needed) a cook.
+          </p>
+        </div>
+      </div>
     </main>
     <footer class="footer text-size-md">
-        <div class="footer__icons">
-            <a class="footer__link" href="#">
-                <img class="footer__icon" src="img/icons8-phone-50.png" alt="Phone icon">
-            </a>
-            <a class="footer__link" href="#">
-                <img class="footer__icon" src="img/icons8-mail-50.png" alt="Phone icon">
-            </a>
-            <a class="footer__link" href="#">
-                <img class="footer__icon" src="img/icons8-linkedin-50.png" alt="Phone icon">
-            </a>
-            <a class="footer__link" href="#">
-                <img class="footer__icon" src="img/icons8-github-50.png" alt="Phone icon">
-            </a>
-        </div>
-        <div class="footer__disclaimer">
-            <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
-            <p>All materials used with permission. &copy; Mitchell Dederer</p>
-        </div>
+      <div class="footer__icons">
+        <a class="footer__link" href="tel://0422187154">
+          <img
+            class="footer__icon"
+            src="img/icons8-phone-50.png"
+            alt="Telephone icon"
+          />
+        </a>
+        <a class="footer__link" href="mailto://mitchelldederer@gmail.com">
+          <img
+            class="footer__icon"
+            src="img/icons8-mail-50.png"
+            alt="Mail icon"
+          />
+        </a>
+        <a
+          class="footer__link"
+          href="https://www.linkedin.com/in/mitchell-dederer-712412200/"
+        >
+          <img
+            class="footer__icon"
+            src="img/icons8-linkedin-50.png"
+            alt="LinkedIn icon"
+          />
+        </a>
+        <a class="footer__link" href="https://github.com/Mederer">
+          <img
+            class="footer__icon"
+            src="img/icons8-github-50.png"
+            alt="Github icon"
+          />
+        </a>
+      </div>
+      <div class="footer__disclaimer">
+        <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+        <p>All materials used with permission. &copy; Mitchell Dederer</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
